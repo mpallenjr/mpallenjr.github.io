@@ -638,6 +638,13 @@ input, select, textarea {
 
 /* Image */
 
+img
+{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
+
 	.image {
 		border-radius: 4px;
 		border: 0;
