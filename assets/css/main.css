@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #000000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -160,11 +160,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9bf1ff !important;
+			color: #a0a0a0 !important;
 		}
 
 		a:active {
-			color: #53e3fb !important;
+			color: #a0a0a0 !important;
 		}
 
 	strong, b {
@@ -2151,11 +2151,11 @@ input, select, textarea {
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #6fc3df;
+		background-color: #a0a0a0;
 	}
 
 	a.icon.alt:active:before {
-		background-color: #37a6cb;
+		background-color: #a0a0a0;
 	}
 
 /* Image */
@@ -2402,12 +2402,12 @@ input, select, textarea {
 				}
 
 					ul.pagination li > .page.active:hover {
-						background-color: #9bf1ff;
-						color: #242943 !important;
+						background-color: #a0a0a0;
+						color: #000000 !important;
 					}
 
 					ul.pagination li > .page.active:active {
-						background-color: #53e3fb;
+						background-color: #a0a0a0;
 					}
 
 			ul.pagination li:first-child {
@@ -2851,7 +2851,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #000000;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -2938,7 +2938,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #000000;
 		}
 
 			.spotlights > section > .image {
@@ -2957,7 +2957,7 @@ input, select, textarea {
 				}
 
 				.spotlights > section > .image:before {
-					background: rgba(36, 41, 67, 0.9);
+					background: rgba(0, 0, 0, 0.9);
 					content: '';
 					display: block;
 					height: 100%;
@@ -3000,7 +3000,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #000000;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3014,10 +3014,12 @@ input, select, textarea {
 
 			.spotlights > section > .image {
 				width: 40%;
+				
 			}
 
 			.spotlights > section > .content {
 				width: 60%;
+				
 			}
 
 		}
@@ -3026,6 +3028,7 @@ input, select, textarea {
 
 			.spotlights > section > .image {
 				width: 45%;
+				
 			}
 
 			.spotlights > section > .content {
@@ -3042,6 +3045,7 @@ input, select, textarea {
 
 				.spotlights > section > .image {
 					width: 100%;
+					
 				}
 
 				.spotlights > section > .content {
@@ -3114,7 +3118,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #000000;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3153,11 +3157,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: #a0a0a0;
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: #a0a0a0;
 			}
 
 		#header nav {
@@ -3259,11 +3263,11 @@ input, select, textarea {
 		}
 
 			#header.alt.style1 .logo strong {
-				color: #6fc3df;
+				color: #000000;
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				color: #000000;
 			}
 
 			#header.alt.style3 .logo strong {
@@ -3275,7 +3279,7 @@ input, select, textarea {
 			}
 
 			#header.alt.style5 .logo strong {
-				color: #8ea9e8;
+				color: #000000;
 			}
 
 			#header.alt.style6 .logo strong {
@@ -3491,7 +3495,7 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			background-color: #797979;
 		}
 
 		#banner.style2:after {
